@@ -1,0 +1,32 @@
+{
+    "editor.fontSize": 18,
+    "python.linting.mypyCategorySeverity.error": "Information",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "window.zoomLevel": 0.3,
+    "explorer.compactFolders": false,
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontSize": 20,
+    "python.linting.flake8Args": [
+        "--ignore=F401,W293,W292"
+    ],
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+    ],
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "default"
+    },
+    "workbench.tree.indent": 20,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "files.autoSave": "onFocusChange",
+    "python.analysis.autoImportCompletions": false,
+    "python.formatting.provider": "autopep8",
+    "workbench.iconTheme": "vs-minimal"
+}
