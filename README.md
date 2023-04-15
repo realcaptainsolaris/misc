@@ -44,13 +44,22 @@ https://github.com/neoclide/coc-python
 ### Coc vim Extensions
 
     :CocInstall ...
-    coc-pyright 
     coc-json
     coc-snippets
-    coc-rls
+    coc-rust-analyzer
 
 ### Coc-Settings.json
 (set up config file)
 :CocConfig 
+
+### Rust
+https://github.com/fannheyward/coc-rust-analyzer
+:CocInstall coc-rust-analyzer
+
+### Install rust-analyzer
+mkdir -p ~/.local/bin
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | gunzip -c - > ~/.local/bin/rust-analyzer
+chmod +x ~/.local/bin/rust-analyzer
+
 
 
