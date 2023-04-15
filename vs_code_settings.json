@@ -2,6 +2,7 @@
     "editor.fontSize": 18,
     "python.linting.mypyCategorySeverity.error": "Information",
     "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false,
     "window.zoomLevel": 0.3,
     "explorer.compactFolders": false,
