@@ -1,17 +1,23 @@
 {
     "coc.preferences.formatOnSaveFiletypes": [
-        "python", "rust"
+        "python",
+        "rust",
+        "javascript",
+        "json"
     ],
-    "coc.preferences.extensionUpdateCheck": "daily",
+    "coc.preferences.extensionUpdateCheck": "never",
     "coc.preferences.rootPatterns": [
         ".vim",
         ".git",
         ".hg",
         ".projections.json"
     ],
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Path": "autopep8",
-    "python.jediEnabled": false,
+    "rust-analyzer.server.path": "~/.local/bin/rust-analyzer",
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "~/.local/envs/cocenv/bin/black",
     "diagnostic.refreshOnInsertMode": false,
     "python.linting.mypyEnabled": true,
     "python.analysis.useLibraryCodeForTypes": true,
