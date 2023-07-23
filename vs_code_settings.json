@@ -1,6 +1,9 @@
 {
     "editor.fontSize": 18,
     "python.linting.mypyCategorySeverity.error": "Information",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false,
